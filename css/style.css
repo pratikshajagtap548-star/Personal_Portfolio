@@ -1239,3 +1239,56 @@ body::before {
         grid-template-columns: 1fr;
     }
 }
+/* ==============================
+   PREMIUM FOOTER DESIGN
+============================== */
+
+.footer {
+    background: rgba(15, 15, 28, 0.9);
+    border-top: 1px solid rgba(167, 139, 250, 0.2);
+
+    padding: 55px 20px 25px;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.footer h2 span {
+    color: #a78bfa;
+}
+
+.footer p {
+    color: #aaa6bd;
+    margin-bottom: 22px;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 22px 0;
+}
+
+.footer a {
+    color: #c4b5fd;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.footer .copyright {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
