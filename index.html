@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Pratiksha Jagtap | Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,6 +17,11 @@
         <nav class="navbar">
 
             <a href="#" class="logo">PJ<span>.</span></a>
+            
+<button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+    ☰
+</button>
+
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -41,7 +47,7 @@
             Hi, I'm <span>Pratiksha Jagtap</span>
         </h1>
 
-        <h2>Computer Technology Student</h2>
+        <h2><span id="typing"></span></h2>
 
         <p class="description">
             I am a passionate technology student who loves
@@ -71,8 +77,383 @@
 
 </section>
 
+<!-- ABOUT SECTION -->
 
+<section class="about" id="about">
+
+    <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-content">
+
+            <h3>Hello! I'm Pratiksha Jagtap</h3>
+
+            <p>
+                I am a Computer Technology diploma student
+                at S.E.S. Polytechnic, Solapur.<br>
+
+                I am interested in technology, problem-solving
+                and learning new skills. I am passionate about exploring Cyber Security
+    and Artificial Intelligence & Machine Learning.
+    I enjoy learning new technologies, understanding
+    innovative concepts and developing creative projects.
+            </p>
+
+            <p>
+                My goal is to continuously improve my technical
+                knowledge, gain practical experience and build
+                solutions that make a positive difference.
+            </p>
+
+            <a href="#contact" class="btn primary-btn">
+                Let's Connect
+            </a>
+
+        </div>
+
+        <div class="about-details">
+
+            <div class="detail-card">
+                <span>🎓</span>
+                <div>
+                    <h3>Education</h3>
+                    <p>Diploma in Computer Technology</p>
+                </div>
+            </div>
+
+            <div class="detail-card">
+    <span>💻</span>
+    <div>
+        <h3>Areas of Interest</h3>
+        <p>Cyber Security</p>
+        <p>Artificial Intelligence & Machine Learning</p>
+    </div>
+</div>
+
+            <div class="detail-card">
+                <span>🚀</span>
+                <div>
+                    <h3>Career Goal</h3>
+                    <p>Grow as a skilled technology professional</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION SECTION -->
+
+<section class="education" id="education">
+
+    <div class="section-heading">
+        <p>MY ACADEMIC BACKGROUND</p>
+        <h2>My <span>Education</span></h2>
+    </div>
+
+    <div class="education-container">
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                🎓
+            </div>
+
+            <div class="education-info">
+
+                <span class="education-tag">
+                    DIPLOMA
+                </span>
+
+                <h3>Diploma in Computer Technology</h3>
+
+                <h4>S.E.S. Polytechnic, Solapur</h4>
+
+                <p>
+                    Currently pursuing a Diploma in Computer
+                    Technology. Learning programming,
+                    database management, digital electronics
+                    and computer fundamentals.
+                </p>
+
+                <div class="education-footer">
+                    <span>📍 Solapur, Maharashtra</span>
+                    <span>💻 CM Department</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SKILLS SECTION -->
+
+<section class="skills" id="skills">
+
+    <div class="section-heading">
+        <p>WHAT I KNOW</p>
+        <h2>My <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML</h3>
+            <p>Web Page Structure</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS</h3>
+            <p>Web Design & Styling</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Interactive Web Pages</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>C / C++</h3>
+            <p>Programming Fundamentals</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <h3>SQL & DBMS</h3>
+            <p>Database Management</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🔧</div>
+            <h3>Git & GitHub</h3>
+            <p>Version Control & Projects</p>
+        </div>
+
+    </div>
+
+    <!-- AREAS OF INTEREST -->
+
+    <div class="interest-heading">
+        <h3>Areas of <span>Interest</span></h3>
+        <p>Technologies I am passionate about exploring</p>
+    </div>
+
+    <div class="interest-container">
+
+        <div class="interest-card">
+            <span>🔐</span>
+            <h3>Cyber Security</h3>
+            <p>Interested in digital security and protecting information.</p>
+        </div>
+
+        <div class="interest-card">
+            <span>🤖</span>
+            <h3>AI & Machine Learning</h3>
+            <p>Interested in intelligent systems and emerging AI technologies.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="section-title">
+        <h2>My Projects</h2>
+        <p>Some of the projects I have created</p>
+    </div>
+
+    <div class="projects-container">
+
+        <!-- Project 1: Daily Focus Dashboard -->
+        <div class="project-card">
+            <div class="project-icon">📅</div>
+            <span class="project-category">Web Development</span>
+
+            <div class="project-info">
+                <h3>Daily Focus Dashboard</h3>
+                <p>
+                    A productivity dashboard to manage daily goals,
+                    tasks, date, time and motivational quotes.
+                </p>
+
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://pratikshajagtap548-star.github.io/Daily-Focus-Dashboard/"
+                   target="_blank"
+                   class="project-link">
+                    Live Demo →
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 2: Student ID Card -->
+        <div class="project-card">
+            <div class="project-icon">🪪</div>
+            <span class="project-category">Web Development</span>
+
+            <div class="project-info">
+                <h3>Student ID Card Generator</h3>
+                <p>
+                    A digital student ID card generator with
+                    photo upload and student information.
+                </p>
+
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href=" https://pratikshajagtap548-star.github.io/Student-ID-Card-Generator/"
+                   target="_blank"
+                   class="project-link">
+                    Live Demo →
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 3: Singly Linked List -->
+        <div class="project-card">
+            <div class="project-icon">🔗</div>
+            <span class="project-category">Data Structures</span>
+
+            <div class="project-info">
+                <h3>Singly Linked List</h3>
+                <p>
+                    A project demonstrating singly linked list
+                    operations using a menu-driven program.
+                </p>
+
+                <div class="tech-tags">
+                    <span>C Programming</span>
+                    <span>Data Structures</span>
+                </div>
+
+                <a href=https://github.com/pratikshajagtap548-star/Singly-Linked-List-Switch-Case
+                   class="project-link">
+                View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 4: Student Management System -->
+        <div class="project-card">
+            <div class="project-icon">🎓</div>
+            <span class="project-category">C++ Project</span>
+
+            <div class="project-info">
+                <h3>Student Management System</h3>
+                <p>
+                    A C++ application to manage student records
+                    using OOP concepts and file handling.
+                    It supports adding, displaying, searching,
+                    updating and deleting records.
+                </p>
+
+                <div class="tech-tags">
+                    <span>C++</span>
+                    <span>OOP</span>
+                    <span>File Handling</span>
+                </div>
+
+                <a href="https://github.com/pratikshajagtap548-star/Student_Management_System"
+                   target="_blank"
+                   class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <h2>Contact Me</h2>
+        <p>Let's connect and create something amazing!</p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+            <span>📧</span>
+            <h3>Email</h3>
+            <p>Feel free to connect with me through email.</p>
+            <a href="mailto:pratikshajagtap548@gmail.com">Send Email →</a>
+        </div>
+
+        <div class="contact-card">
+            <span>💻</span>
+            <h3>GitHub</h3>
+            <p>Explore my projects and coding work.</p>
+            <a href="https://github.com/pratikshajagtap548-star"
+               target="_blank">Visit GitHub →</a>
+        </div>
+
+        <div class="contact-card">
+            <span>💼</span>
+            <h3>LinkedIn</h3>
+            <p>Connect with me professionally.</p>
+            <a href="https://www.linkedin.com/in/pratiksha-jagtap-5449a63a9/"
+               target="_blank">Visit LinkedIn →</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER SECTION -->
+
+<footer class="footer">
+
+    <h2>Pratiksha<span>.</span></h2>
+
+    <p>Computer Technology Student | Aspiring Developer</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+        <a href="https://github.com/pratikshajagtap548-star"
+           target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/pratiksha-jagtap-5449a63a9/"
+           target="_blank">LinkedIn</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Pratiksha Jagtap. All Rights Reserved.
+    </p>
+
+</footer>
+
+ <button id="backToTop" title="Back to Top">↑</button>
     <script src="js/script.js"></script>
-
 </body>
 </html>
