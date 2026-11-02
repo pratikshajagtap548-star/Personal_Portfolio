@@ -131,3 +131,43 @@ const revealObserver = new IntersectionObserver((entries) => {
 revealElements.forEach(element => {
     revealObserver.observe(element);
 });
+// Cursor glow effect
+
+const cursorGlow = document.querySelector(".cursor-glow");
+
+document.addEventListener("mousemove", (e) => {
+    if (cursorGlow) {
+        cursorGlow.style.left = e.clientX + "px";
+        cursorGlow.style.top = e.clientY + "px";
+    }
+});
+// Scroll progress bar
+
+const scrollProgress = document.getElementById("scrollProgress");
+
+window.addEventListener("scroll", () => {
+    const scrollableHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+
+    const progress =
+        scrollableHeight > 0
+            ? (window.scrollY / scrollableHeight) * 100
+            : 0;
+
+    if (scrollProgress) {
+        scrollProgress.style.width = progress + "%";
+    }
+});
+// Premium Loading Screen
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    if (loader) {
+        setTimeout(() => {
+            loader.classList.add("loader-hidden");
+        }, 1000);
+    }
+
+});
